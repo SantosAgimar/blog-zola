@@ -1,0 +1,41 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+theme = "hyde"
+description = "Meu blog portifolio"
+title = "Meu Blog"
+
+[extra]
+# Put all your custom variables here
+hyde_links = [
+  {url = "https://google.com", name = "Google.com"},
+
+  {url = "https://news.google.com", name = "Google Notícias"},
+  
+  {url = "/2024-06-21-primeiro-post", name = "Primeiro post"},
+
+  {url = "alvenaria.com", name = "Alvenaria"},
+
+  {url = "hidraulica.com", name = "Hidraulica"},
+
+  {url = "eletrica.com", name = "Eletrica"},
+
+  {url = "jardinagem.com", name = "Jardinagem"},
+  
+  {url = "contato.com", name = "Contato"},
+ 
+  {url = "/about", name = "Sobre"},
+]
+hyde_sticky = false
+hyde_theme = "theme-base-0f"
+hyde_reverse = false
